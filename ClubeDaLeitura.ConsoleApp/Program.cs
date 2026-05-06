@@ -76,7 +76,7 @@ while (true)
             if (opcaoMenuInterno == "S")
             {
                 //Console.Clear();
-                break;
+                break;    
             }
 
             if (opcaoMenuInterno == "1")

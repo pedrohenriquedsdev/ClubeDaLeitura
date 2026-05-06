@@ -25,6 +25,7 @@ public class Caixa : EntidadeBase
         DiasDeEmprestimo = diasDeEmprestimo;
     }
 
+    // substituição = implementação do método abstração
     public override string[] Validar()
     {
         string erros = string.Empty;
