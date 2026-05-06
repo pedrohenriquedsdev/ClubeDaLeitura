@@ -1,14 +1,5 @@
 namespace ClubeDaLeitura.ConsoleApp.Dominio;
 
-/*
-    ● Campos obrigatórios:
-        ○ Etiqueta (texto único, máximo 50 caracteres)
-        ○ Cor (seleção de paleta ou hexadecimal)
-        ○ Dias de empréstimo (número, padrão 7)
-    ● Não pode haver etiquetas duplicadas
-    ● Não permitir excluir uma caixa caso tenha revistas vinculadas
-    ● Cada caixa define o prazo máximo para empréstimo de suas revistas
-*/
 // Encapsulamento
 public class Caixa : EntidadeBase
 {
@@ -20,6 +11,7 @@ public class Caixa : EntidadeBase
     // toda instância que for criada PRECISA dessas informações
     public Caixa(string etiqueta, string cor, int diasDeEmprestimo)
     {
+        //nao define mais o ID por que herda de EntidadeBase
         Etiqueta = etiqueta;
         Cor = cor;
         DiasDeEmprestimo = diasDeEmprestimo;

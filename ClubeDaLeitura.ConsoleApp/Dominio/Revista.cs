@@ -1,13 +1,5 @@
 namespace ClubeDaLeitura.ConsoleApp.Dominio;
 
-/*
-    Regras de Negócio:
-        ● Campos obrigatórios:
-            ○ Título (2-100 caracteres)
-            ○ Número da edição (número positivo)
-            ○ Ano de publicação (ano válido)
-            ○ Caixa (seleção obrigatória)
-*/
 public class Revista : EntidadeBase
 {
     public string Titulo { get; set; }

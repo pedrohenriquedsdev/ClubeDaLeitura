@@ -20,7 +20,6 @@ EntidadeBase entidade = caixa;
 
 entidade.AtualizarRegistro(new Caixa("Teste", "Vermelho", 5));
 
-
 while (true)
 {
     //Console.Clear();
@@ -76,7 +75,7 @@ while (true)
             if (opcaoMenuInterno == "S")
             {
                 //Console.Clear();
-                break;    
+                break;
             }
 
             if (opcaoMenuInterno == "1")

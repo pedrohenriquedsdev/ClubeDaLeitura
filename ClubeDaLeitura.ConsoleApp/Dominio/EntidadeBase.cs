@@ -17,6 +17,6 @@ public abstract class EntidadeBase
     }
 
     // definição abstrata
-    public abstract string[] Validar();
-    public abstract void AtualizarRegistro(EntidadeBase entidadeAtualizada);
+    public abstract string[] Validar(); //todas as filhas precisam validar, mas, cada um faz isso de maneira diferente
+    public abstract void AtualizarRegistro(EntidadeBase entidadeAtualizada); //todas as filhas precisam validar, mas, cada um faz isso de maneira diferente
 }
